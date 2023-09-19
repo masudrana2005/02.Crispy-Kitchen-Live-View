@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Sarabun, sans-serif;;
+}
+/* Header Section Start Here  */
+.container {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo-area {
+    /* background-color: red; */
+    width: 18%;
+    height: 57px;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.logo h1{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.logo h1:hover {
+    color: #f44749;
+}
+.menu-and-btn {
+    /* background-color: bisque; */
+    width: 82%;
+    height: 57px;
+    overflow: hidden;
+}
+.menu-area {
+    /* background-color: chartreuse; */
+    width: 82%;
+    height: 57px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+.menu-area ul li {
+    display: inline-block;
+}
+.menu-area a {
+    font-size: 20px;
+    padding: 20px;
+    color: #717275;
+}
+.menu-area ul li a:hover {
+    color: #f56163;
+}
+.active {
+    color: #f56163 !important;
+}
+.btn-area {
+    background-color: #dc3545;
+    width: 18%;
+    height: 47px;
+    font-size: 13px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.btn-area:hover {
+    background-color: #c42918;
+}
+/* Header Section End Here  */
+
+
+
+/* Special Menus Area Start Here  */
+section {
+    max-width: 1300px;
+    margin: auto;
+}
+.section-2 .box-area {
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+.header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.box-area {
+    width: 418px;
+    height: 420px;
+    float: left;
+    margin: 7.6px;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.p-1 {
+    background-color: #ffc107;
+    width: 84px;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.size-and-left {
+    margin-top: 15px;
+}
+.size h2{
+    font-size: 33px;
+    margin-right: 22px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+.left h2{
+    width: 70px;
+    height: 55px;
+    color: #f3af24;
+    font-size: 20px;
+    border: 5px solid #fff;
+    border-radius: 35%;
+    box-shadow: 0px 0px 5px 4px #e0dede;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+.rating-and-reviews {
+    margin-top: 20px;
+}
+.rating h2{
+    font-size: 25px;
+    margin-right: 20px;
+    float: left;
+}
+.margin-top {
+    margin-top: 5px;
+}
+.icon {
+    float: left;
+    color: #f3af24;
+    margin-right: 20px;
+    margin-top: 3px;
+  }
+  .review p{
+    font-size: 20px;
+    color: #8b8c8e;
+  }
+  /* Special Menus Area End Here  */
+
+
+
+  /* Fixed Image Section Start Here */
+/* .bg-image {
+    background-image: url(Images/image-1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/* Fixed Image Section End Here */
+
+
+
+/* News and Events Area Start Here */
+.image {
+    width: 636px;
+    height: 426px;
+    position: relative;
+}
+.p-2 {
+    background-color: #dc3545;
+    width: 84px;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    bottom: 85px;
+}
+.box-1{
+    float: left;
+    margin: 7px;
+}
+.box-area-1 {
+    width: 418px;
+    height: 276px;
+    float: left;
+    margin: 7.6px;
+    position: relative;
+}   
+.section-3 .image h1 {
+    font-size: 32px;
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.btn-and-date {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btn {
+    background-color: #0dcaf0;
+    width: 90px;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+.date h2{
+    font-size: 20px;
+    padding: 5px;
+}
+.section-4 h1 {
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+.section-4 h1:hover {
+    color: #dc3545;
+}
+/* News and Events Area End Here */
+
+
+/* Footer Section Start Here */
+.footer-section{
+
+}
+.footer-area{
+    width: 100%;
+    height: 550px;
+    background-image: url(Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.content{
+    z-index: 1;
+    color: #fff;
+}
+.footer-area::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+}
+.content{
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+}
+.one{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+.one h3{
+    font-size: 25px;
+}
+.one-c{
+    font-size: 20px;
+    margin-top: 120px;
+    margin-bottom: 75px ;
+}
+.paragraph p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn-1{
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #272b30;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 13px;
+}
+.btn-1:hover{
+    background-color: #212529;
+}
+.two{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+.two h2{
+    margin-top: 220px;
+    margin-bottom: 40px;
+}
+.two p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.three{
+    width: 30%;
+    float: left;
+}
+.three h2 {
+    margin-top: 220px;
+    margin-bottom: 40px;
+}
+.three a{
+    color: #8f8f8e;
+}
+.three a:hover{
+    color: #fff;
+}
+.icon-1 {
+    margin-bottom: 80px;
+}
+.icon-1 a{
+    padding: 5px;
+}
+.three p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.change-color{
+    color: #8f8f8e;
+}
+.footer-area{
+    margin-top: 1000px;
+}
+/* Footer Section End Here */
